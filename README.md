@@ -1,9 +1,8 @@
 # auto_message_sending
-Автоматизированная отправка сообщений в telegram и whatsapp через эмулятор операционной системы мобильного телефона
+Automated sending messages to telegram and whatsapp through a mobile phone operating system emulator
 
-Можно использовать любой эмулятор операционной системы мобильного телефона, например Andriod Studio или Genymotion
-Лично я разворачивал Андройд в Docker-контейнере
+You can use any mobile phone operating system emulator, such as Andriod Studio or Genymotion You can also deploy Android in a Docker container
 
-Необходимо правильно указать свойства операционной системы ее версию и т.д. (в desired_caps приведен пример), socket - ip и порт, на котором развернут эмулятор.
+You must correctly specify the properties of the operating system, its version, etc. (an example is given in desired_caps), socket - the ip and port on which the emulator is deployed.
 
-При помощи данного скрипта в автоматическом режиме производятся действия на телефоне для отправки сообщений в мессенджерах (для более правдоподобной эмуляции действий пользователя можно поставить time.sleep(...) перед некоторыми действиями)
+Using this script, actions are automatically performed on the phone to send messages in messengers (for a more believable emulation of user actions, you can put time.sleep(...) before some actions)
